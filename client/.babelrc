@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    ["module-resolver", {
+        "alias": {
+            "~": "./src",
+            "~components": "./src/components",
+            "~pages": "./src/pages",
+            "~layout": "./src/components/layout",
+            "~api": "./src/api",
+            "~utils": "./src/utils",
+            "~assets": "./src/assets",
+            "~reduxFeatures": "./src/redux/features"
+
+      }
+    }]
+  ]
+}

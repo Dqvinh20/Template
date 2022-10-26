@@ -1,0 +1,59 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "latest",
+    "@ckeditor/ckeditor5-react": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@fontsource/roboto": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "latest",
+    "@mui/material": "latest",
+    "@reduxjs/toolkit": "latest",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "latest",
+    "date-fns": "latest",
+    "emoji-mart": "latest",
+    "query-string": "latest",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "latest",
+    "react-dom": "^18.2.0",
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1"
+  }
+}
